@@ -59,6 +59,9 @@ class Conta:
         elif opcao == '2':
             valor = float(input('Digite o valor a ser depositado: '))
             self.deposito(valor)
+	elif opcao == '3':
+            valor = float(input('Digite o valor a ser retirado da sua conta: '))
+            self.saque(valor)
         elif opcao == '4':
             exit()
 
